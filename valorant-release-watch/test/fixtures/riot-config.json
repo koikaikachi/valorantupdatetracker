@@ -1,0 +1,118 @@
+{
+  "keystone.products.valorant.patchlines.live": {
+    "platforms": {
+      "win": {
+        "configurations": [
+          {
+            "id": "na",
+            "valid_shards": {
+              "live": [
+                "na"
+              ]
+            },
+            "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+            "patch_artifacts": [
+              {
+                "id": "valorant_client",
+                "type": "patch_url",
+                "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+                "excluded_paths": null,
+                "tags": null
+              }
+            ]
+          },
+          {
+            "id": "eu",
+            "valid_shards": {
+              "live": [
+                "eu"
+              ]
+            },
+            "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+            "patch_artifacts": [
+              {
+                "id": "valorant_client",
+                "type": "patch_url",
+                "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+                "excluded_paths": null,
+                "tags": null
+              }
+            ]
+          },
+          {
+            "id": "kr",
+            "valid_shards": {
+              "live": [
+                "kr"
+              ]
+            },
+            "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+            "patch_artifacts": [
+              {
+                "id": "valorant_client",
+                "type": "patch_url",
+                "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+                "excluded_paths": null,
+                "tags": null
+              }
+            ]
+          },
+          {
+            "id": "br",
+            "valid_shards": {
+              "live": [
+                "br"
+              ]
+            },
+            "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+            "patch_artifacts": [
+              {
+                "id": "valorant_client",
+                "type": "patch_url",
+                "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+                "excluded_paths": null,
+                "tags": null
+              }
+            ]
+          },
+          {
+            "id": "latam",
+            "valid_shards": {
+              "live": [
+                "latam"
+              ]
+            },
+            "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+            "patch_artifacts": [
+              {
+                "id": "valorant_client",
+                "type": "patch_url",
+                "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+                "excluded_paths": null,
+                "tags": null
+              }
+            ]
+          },
+          {
+            "id": "ap",
+            "valid_shards": {
+              "live": [
+                "ap"
+              ]
+            },
+            "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+            "patch_artifacts": [
+              {
+                "id": "valorant_client",
+                "type": "patch_url",
+                "patch_url": "https://valorant.secure.dyn.riotcdn.net/channels/public/releases/448DAE34A9D16C88.manifest",
+                "excluded_paths": null,
+                "tags": null
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

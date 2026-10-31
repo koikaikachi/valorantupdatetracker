@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "valorant-release-watch",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "triggers": { "crons": ["* * * * *"] },
+  "observability": { "enabled": true, "head_sampling_rate": 0.1 },
+  "vars": {
+    "ENABLED": "false",
+    "REGIONS": "na,eu,ap,kr,br,latam",
+    "PING_USER_ID": "",
+    "FAILURE_ALERT_AFTER": "3"
+  },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "valorant-release-watch",
+    "database_id": "00000000-0000-0000-0000-000000000000"
+  }]
+}
